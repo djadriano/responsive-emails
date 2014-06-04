@@ -1,0 +1,22 @@
+<table class="hero fluid theme-bg-<%= skin %>">
+  <tr>
+    <td class="row">
+      <h1 class="hero-title"><%= title %></h1>
+      <p><%= description %></p>
+      <% if defined?(button) %>
+        <div class="hero-button">
+          <table class="button">
+            <tr>
+              <td class="button-content" align="center">
+                <a href="<%= button[:link] %>" class="theme-link-<%= skin %>"><%= button[:label] %></a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      <% end %>
+    </td>
+  </tr>
+  <tr>
+    <td><%= image_tag 'defaults/hero_separator.png' %></td>
+  </tr>
+</table>
