@@ -5,6 +5,7 @@
 set :css_dir   , 'public/stylesheets/'
 set :images_dir, 'public/images/'
 set :layout    , 'development'
+set :build_dir , 'minified'
 
 # -----------------------------
 #  Activate items
