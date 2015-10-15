@@ -1,0 +1,100 @@
+@include generate-spaces-classes;
+@include generate-colors-classes;
+@include generate-fs-classes;
+@include generate-theme;
+
+.e-body {
+  @extend .f-helvetica;
+  @extend .fs-16;
+  margin: auto;
+  max-width: 600px;
+  width: 100%;
+
+  @media screen and (min-width: 600px) {
+    width: 600px;
+  }
+}
+
+.f-helvetica {
+  font-family: "Arial", "sans-serif";
+}
+
+.no-bold {
+  font-weight: normal;
+}
+
+.t-bold {
+  font-weight: bold;
+}
+
+.block-element {
+  display: block;
+}
+
+.inline-block-element {
+  display: inline-block !important;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-default {
+  width: auto;
+  max-width: none;
+}
+
+.button {
+  td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+
+    a {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.rga-logo-box {
+  width: 36px;
+}
+
+.rga-logo-text {
+  font-size: 30px;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.t-underline {
+  text-decoration: underline;
+}
+
+.t-uppercase {
+  text-transform: uppercase;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-link {
+  text-decoration: underline;
+}
+
+.bb {
+  border-bottom: 1px solid map-get($colors, 'gray-medium');
+}
+
+.sections-title {
+  border-bottom: 1px solid black;
+}
+
+.tips-pacer-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+$spaces: ( 5, 10, 20, 30, 40, 60 );
+
+$colors: (
+  'black'      : #333333,
+  'red'        : #ff4026,
+  'white'      : #ffffff,
+  'gray'       : #888888,
+  'gray-strong': #444444,
+  'gray-medium': #ebebeb,
+  'gray-light' : #f2f2f2
+);
+
+$themes:(
+  'blue'       : #0bb3e9,
+  'green-light': #2cd4c5,
+  'green'      : #95b52b,
+  'purple'     : #f80051
+);
+
+$font-size: (
+  '12':(
+    'font-size': 12,
+    'line-height': 16
+  ),
+  '14':(
+    'font-size': 14,
+    'line-height': 18
+  ),
+  '16':(
+    'font-size': 16,
+    'line-height': 20
+  ),
+  '20':(
+    'font-size': 20,
+    'line-height': 24
+  ),
+  '28':(
+    'font-size': 28,
+    'line-height': 32
+  )
+);

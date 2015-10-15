@@ -1,14 +1,14 @@
     <!--[if (gte mso 9)|(IE)]>
-      <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+      <table width="600" align="center" cellpadding="0" cellspacing="0" border="0" class="e-body theme-<%= current_page.data.theme %>">
         <tr>
           <td>
     <![endif]-->
-    <table class="body">
+    <table class="e-body theme-<%= current_page.data.theme %>">
       <tr>
-        <td class="center" align="center" valign="top">
-          <center>
-            <%= body %>
-          </center>
+        <td class="a-center" align="center" valign="top">
+          <%= partial 'modules/shared/header' %>
+          <%= body %>
+          <%= partial 'modules/shared/footer' %>
         </td>
       </tr>
     </table>

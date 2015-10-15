@@ -1,0 +1,102 @@
+* { @include box-sizing(border-box); }
+
+/* ==========================================================================
+   Default Reset for Emails
+   ========================================================================== */
+
+body, #bodyTable {
+  height:100% !important;
+  width:100% !important;
+  margin:0;
+  padding:0;
+}
+
+table {
+  border-collapse:collapse;
+  mso-table-lspace:0pt;
+  mso-table-rspace:0pt;
+}
+
+img, a img {
+  border:0;
+  outline:none;
+  text-decoration:none;
+}
+
+.imageFix {
+  display:block;
+  vertical-align:text-bottom;
+}
+
+table, td {
+  border-collapse:collapse;
+}
+
+.ReadMsgBody {
+  width:100%;
+}
+
+.ExternalClass {
+  width:100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height:100%;
+}
+
+table,
+td {
+  mso-table-lspace:0pt;
+  mso-table-rspace:0pt;
+  padding: 0;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  outline:none;
+  text-decoration:none;
+  width: 100%;
+  max-width: 100%;
+
+  display:block !important;
+  line-height:0 !important;
+  font-size:0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a img {
+  border: 0 none;
+}
+
+body, table, td, p, a, li, blockquote {
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.imageFix {
+  display:block;
+}
+
+/* ==========================================================================
+   Reset Html Elements
+   ========================================================================== */
+
+#{headings()} {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}

@@ -35,6 +35,6 @@ end
 configure :build do
   activate :minify_emails
   set      :layout     , "production"
-  set      :http_prefix, "url_assets"
-  set      :images_dir , 'email/images/site/'
+  # set      :http_prefix, "http://phpprototype.herokuapp.com/"
+  # set      :images_dir , 'nike/images/'
 end

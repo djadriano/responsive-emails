@@ -1,0 +1,56 @@
+@mixin generate-spaces-classes {
+  @each $space-value in $spaces {
+    .p-all-#{$space-value} { padding: #{$space-value}px; }
+    .pt-#{$space-value} { padding-top: #{$space-value}px; }
+    .pb-#{$space-value} { padding-bottom: #{$space-value}px; }
+    .pl-#{$space-value} { padding-left: #{$space-value}px; }
+    .pr-#{$space-value} { padding-right: #{$space-value}px; }
+
+    .m-all-#{$space-value} { padding: #{$space-value}px; }
+    .mt-#{$space-value} { padding-top: #{$space-value}px; }
+    .mb-#{$space-value} { padding-bottom: #{$space-value}px; }
+    .ml-#{$space-value} { padding-left: #{$space-value}px; }
+    .mr-#{$space-value} { padding-right: #{$space-value}px; }
+  }
+}
+
+@mixin generate-theme {
+  @each $name, $value in $themes {
+    .theme-#{$name} {
+      color: map-get($colors, 'gray');
+
+      .button {
+        background: #{$value};
+      }
+
+      .t-link {
+        color: #{$value};
+      }
+    }
+  }
+}
+
+@mixin generate-colors-classes {
+  @each $color-name, $color-value in $colors {
+
+    .ct-#{$color-name} {
+      color: #{$color-value};
+    }
+
+    .bg-#{$color-name} {
+      background: #{$color-value};
+    }
+
+  }
+}
+
+@mixin generate-fs-classes {
+  @each $fs-item, $fs-value in $font-size {
+
+    .fs-#{$fs-item} {
+      font-size: #{map-get($fs-value, 'font-size')}px;
+      line-height: #{map-get($fs-value, 'line-height')}px;
+    }
+
+  }
+}
