@@ -12,10 +12,5 @@
 </p>
 <p>
   <h2>Setup:</h2>
-  <pre>
-    <code>gem install middleman</code>
-  </pre>
-  <pre>
-    <code>bundle install</code>
-  </pre>
+  <code>gem install middleman</code>
 </p>
