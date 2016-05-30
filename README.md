@@ -5,9 +5,9 @@
 <p>
   Stack:
   <ul>
-    <li>Ruby</li>
+    <li><a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a></li>
     <li><a href="https://middlemanapp.com/" target="_blank">Middleman</a></li>
-    <li>Sass</li>
+    <li><a href="http://sass-lang.com/" target="_blank">Sass</a></li>
   </ul>
 </p>
 <p>
