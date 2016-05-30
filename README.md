@@ -19,6 +19,22 @@
   <pre><code>bundle install</code></pre>
 </p>
 <p>
+  To run the project execute:
+  <pre>
+    <code>middleman</code>
+  </pre>
+  <p>
+    Open your browser and execute: http://localhost:4567/templates/home.html<br>
+    <b>Obs: your e-mails templates is located in templates folder.</b>
+  </p>
+</p>
+<p>
+  To build the e-mails execute:
+  <pre>
+    <code>middleman build</code>
+  </pre>
+</p>
+<p>
   <h2>Helper Classes:</h2>
   <p>
     By default some classes was be defined, see the _utilities.scss
