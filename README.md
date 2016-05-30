@@ -6,7 +6,7 @@
   Stack:
   <ul>
     <li>Ruby</li>
-    <li>Middleman</li>
+    <li><a href="https://middlemanapp.com/" target="_blank">Middleman</a></li>
     <li>Sass</li>
   </ul>
 </p>
@@ -23,7 +23,7 @@
   <pre><code>middleman</code></pre>
   <p>
     Open your browser and execute: http://localhost:4567/templates/home.html<br>
-    <b>Obs: your e-mails templates is located in templates folder.</b>
+    <b>Obs: your e-mail templates is located in templates folder.</b>
   </p>
 </p>
 <p>
