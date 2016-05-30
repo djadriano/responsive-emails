@@ -6,6 +6,7 @@
   Stack:
   <ul>
     <li><a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a></li>
+    <li><a href="http://bundler.io/" target="_blank">Bundler</a></li>
     <li><a href="https://middlemanapp.com/" target="_blank">Middleman</a></li>
     <li><a href="http://sass-lang.com/" target="_blank">Sass</a></li>
   </ul>
