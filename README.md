@@ -25,68 +25,68 @@
   </p>
   <pre>
     <code>
-      .no-bold {
-        font-weight: normal;
-      }
+.no-bold {
+  font-weight: normal;
+}
 
-      .t-bold {
-        font-weight: bold;
-      }
+.t-bold {
+  font-weight: bold;
+}
 
-      .block-element {
-        display: block;
-      }
+.block-element {
+  display: block;
+}
 
-      .inline-block-element {
-        display: inline-block !important;
-      }
+.inline-block-element {
+  display: inline-block !important;
+}
 
-      .w-full {
-        width: 100%;
-      }
+.w-full {
+  width: 100%;
+}
 
-      .w-default {
-        width: auto;
-        max-width: none;
-      }
+.w-default {
+  width: auto;
+  max-width: none;
+}
 
-      .button {
-        td {
-          padding-top: 10px;
-          padding-bottom: 10px;
-          padding-left: 30px;
-          padding-right: 30px;
-          font-size: 14px;
+.button {
+  td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
 
-          a {
-            text-transform: uppercase;
-          }
-        }
-      }
+    a {
+      text-transform: uppercase;
+    }
+  }
+}
 
-      .t-underline {
-        text-decoration: underline;
-      }
+.t-underline {
+  text-decoration: underline;
+}
 
-      .t-uppercase {
-        text-transform: uppercase;
-      }
+.t-uppercase {
+  text-transform: uppercase;
+}
 
-      .t-center {
-        text-align: center;
-      }
+.t-center {
+  text-align: center;
+}
 
-      .t-link {
-        text-decoration: underline;
-      }
+.t-link {
+  text-decoration: underline;
+}
 
-      .bb {
-        border-bottom: 1px solid map-get($colors, 'gray-medium');
-      }
+.bb {
+  border-bottom: 1px solid map-get($colors, 'gray-medium');
+}
 
-      .sections-title {
-        border-bottom: 1px solid black;
-      }
+.sections-title {
+  border-bottom: 1px solid black;
+}
     </code>
   </pre>
 </p>
